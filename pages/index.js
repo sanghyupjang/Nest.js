@@ -16,6 +16,7 @@ export default function Home() {
       setMovies(results);
     })();
   }, []);
+
   return (
     <div className="container">
       <Seo title="Home" />
@@ -46,7 +47,7 @@ export default function Home() {
           font-size: 18px;
           text-align: center;
         }
-      `}</style>
+      // `}</style>
     </div>
   );
 }
