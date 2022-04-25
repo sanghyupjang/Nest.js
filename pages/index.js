@@ -47,7 +47,7 @@ export default function Home() {
           font-size: 18px;
           text-align: center;
         }
-      // `}</style>
+      `}</style>
     </div>
   );
 }
