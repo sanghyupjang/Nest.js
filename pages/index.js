@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 import Seo from "../components/Seo";
 
 const API_KEY = "fbfae06ff3cbabd01f0ea2beaac12af2";
