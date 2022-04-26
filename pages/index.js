@@ -16,7 +16,6 @@ export default function Home() {
       setMovies(results);
     })();
   }, []);
-
   return (
     <div className="container">
       <Seo title="Home" />
